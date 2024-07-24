@@ -1,0 +1,106 @@
+crear proyecto
+    npm create vite@latest
+    react-quiosco
+    react
+    javascript
+    
+
+    npm install
+    npm run dev
+
+instalar tailwind
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p   -> genera archivos en el proyecto
+                    postcss.config.js
+                    tailwind.config.js
+
+    en tailwind.config.js 
+        content: [
+            "./index.html",
+            "./src/**/*.{js,jsx}"   ts,tsx si se usara typescript
+        ],
+
+    en index.css
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+instalar react router dom
+    npm i react-router-dom
+
+crear dentro de src/router.jsx
+
+crear dentro de src/layouts/Layout.jsx
+crear dentro de src/layouts/AuthLayout.jsx
+
+crear dentro de src/views/Login.jsx
+crear dentro de src/views/Inicio.jsx
+crear dentro de src/views/Registro.jsx
+
+copiar carpeta img en public
+
+
+crear dentro de src/components/Sidebar.jsx
+crear dentro de src/components/Resumen.jsx
+
+crear dentro de src/data/categorias.jsx
+crear dentro de src/data/productos.jsx
+
+crear dentro de src/components/Categoria.jsx
+crear dentro de src/components/Producto.jsx
+
+crear dentro de src/helpers/index.js
+
+crear dentro de src/context/QuioscoProvider.jsx
+
+crear dentro de src/hooks/useQuiosco.js
+
+instalar react-modal
+    npm i react-modal
+
+crear dentro de src/components/ModalProducto.jsx
+
+iconos
+    https://heroicons.com/
+
+
+crear dentro de src/components/ResumenProducto.jsx
+
+instalar react-toastify
+    npm install react-toastify
+
+exmaples array 
+    https://doesitmutate.xyz/
+
+instalar axios
+    npm i axios
+
+crear .env.local en raiz
+
+
+crear cliente axios
+    crear dentro de src/config/axios.js
+
+instalar swr
+    npm i swr
+
+crear dentro de src/components/Alerta.jsx
+
+
+cors 
+    axios.js
+
+    headers: {
+        'Accept' : 'application/json',
+        'X-Requested-With' : 'XMLHttpRequest'
+    },
+    withCredentials: true
+
+crear dentro de src/hooks/useAuth.js
+
+crear dentro de src/layouts/AdminLayout.jsx
+
+crear dentro de src/views/Ordenes.jsx
+crear dentro de src/views/Productos.jsx
+
+crear dentro de src/components/AdminSidebar.jsx
